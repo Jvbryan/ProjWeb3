@@ -1,0 +1,22 @@
+{
+  "name": "cottonman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node node_modules/nodemon/bin/nodemon.js index.js"
+  },
+  "author": "JV",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-form-data": "^2.0.17",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.0.12",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.14"
+  }
+  
+}

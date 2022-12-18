@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<div w3-include-html="./template/head.html"></div>
+
+<body>
+  <div class="espc"> 
+    <div class="login">
+      <input class="email" type="email" id="email" placeholder="Email"/>
+      <span class="erroemail"></span>
+      <!--criar um span e chamar depois, nos dois casos-->
+      <input class="senha" type="senha" id="password" placeholder="Password"/>
+      <span class="errosenha"></span>
+      <button class="btlogar" id="submitlog">Login</button>
+    </div>
+  </div>
+  <div w3-include-html="./template/nav.html"></div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="/public/js/include.js"></script>
+  <script>includeHTML();</script>
+  <script src="/public/js/login.js"></script>
+</body>
+
+</html>
